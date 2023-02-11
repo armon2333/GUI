@@ -1916,7 +1916,7 @@ function Kavo.CreateLib(kavName, themeList)
                 keyinf = keyinf or "KebindInfo"
                 callback = callback or function() end
                 local oldKey = first.Name
-                local keybindElement = Instance.new("TextButton")
+                local keybindElement = Instance.new("F")
                 local UICorner = Instance.new("UICorner")
                 local togName = Instance.new("TextLabel")
                 local viewInfo = Instance.new("ImageButton")
